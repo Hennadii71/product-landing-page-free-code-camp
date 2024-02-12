@@ -1,0 +1,48 @@
+/* .video{
+    display: block;
+    margin: 40px auto 0 auto;
+} */
+
+li{
+    list-style: none;
+}
+
+.nav-list{
+    display: flex;
+    gap: 24px;
+}
+
+#nav-bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+
+#header{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+}
+
+.section-video{
+    text-align: center;
+}
+@media screen and (min-width: 660px) {
+    .similar-products{
+        display: flex;
+        gap: 20px;
+    }
+}
+
+
+.similar-products-card{
+    width: 200px;
+   text-align: center;
+   border: 1px solid grey;
+   border-radius: 5px;
+   box-shadow: 1px 1px 5px 5px;
+}
